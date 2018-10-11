@@ -5,12 +5,13 @@ import com.stackroute.MovieCruiserApp.exceptions.MovieAlreadyExistException;
 import com.stackroute.MovieCruiserApp.exceptions.MovieNotFoundException;
 import com.stackroute.MovieCruiserApp.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import javax.management.Query;
 import java.util.List;
 import java.util.Optional;
-
+@Primary
 @Service
 public class MovieServiceImpl implements MovieServices{
     @Autowired
@@ -27,6 +28,7 @@ public class MovieServiceImpl implements MovieServices{
         }
         return savedMovie;
 }
+
 
     public List<Movie> getAllMovie(){
         return (List<Movie>)movieRepository.findAll();
@@ -47,9 +49,13 @@ public class MovieServiceImpl implements MovieServices{
                 return movieRepository.findByimdbId(imdbId);
     }
 
-    public Movie getMovieByName(String movieTitle)  {
-            return movieRepository.findBymovieTitle(movieTitle) ;
+    public Movie getMovieByName(String movieTitle) throws MovieNotFoundException {
 
+        if(movieRepository.findBymovieTitle(movieTitle)==null) {
+            throw new MovieNotFoundException("Movie Already Exists");
+        }
+        Movie movie=movieRepository.findBymovieTitle(movieTitle) ;
+        return movie;
     }
 
     public Movie updateMovie(String imdbId,String comment) throws MovieNotFoundException{

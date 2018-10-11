@@ -21,7 +21,7 @@ import java.util.List;
 @Api(value="movieapplication", description="Operations pertaining to a movie application")
 public class MovieCruiserAppController {
     @Autowired
-    @Qualifier("movieServiceImpl")
+//    @Qualifier("movieServiceImpl")
     private MovieServices movieService;
 
     @ApiOperation(value = "Save a Movie in database", response = ResponseEntity.class)

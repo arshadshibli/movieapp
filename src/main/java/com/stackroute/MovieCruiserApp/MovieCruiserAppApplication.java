@@ -10,8 +10,9 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 
 @SpringBootApplication
-public class MovieCruiserAppApplication implements ApplicationListener<ContextRefreshedEvent>, CommandLineRunner {
+public class MovieCruiserAppApplication /*implements ApplicationListener<ContextRefreshedEvent>, CommandLineRunner*/ {
 
+/*
 		MovieRepository movieRepository;
 
 		@Autowired
@@ -21,7 +22,7 @@ public class MovieCruiserAppApplication implements ApplicationListener<ContextRe
 
 		@Override
 		public void run(String... args) throws Exception {
-			Movie movie = new Movie("tt342311210", "Manmarziyaan", "2018", "Thrilling Experience", 4.5, "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
+			Movie movie = new Movie("tt342311213", "Manmarziyaan", "2018", "Thrilling Experience", 4.5, "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
 			movieRepository.save(movie);
 		}
 
@@ -34,6 +35,7 @@ public class MovieCruiserAppApplication implements ApplicationListener<ContextRe
 			movie = new Movie("tt342311212", "Dangal", "2017", "Excellent Experience", 4.7, "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
 			movieRepository.save(movie);
 		}
+*/
 
 	public static void main(String[] args) {
 		SpringApplication.run(MovieCruiserAppApplication.class, args);
