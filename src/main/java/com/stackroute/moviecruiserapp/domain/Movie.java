@@ -1,6 +1,9 @@
 package com.stackroute.moviecruiserapp.domain;
 
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -10,8 +13,10 @@ import javax.validation.constraints.Size;
 
 //import javax.persistence.Entity;
 //import javax.persistence.Id;
-
+@Data
 @Document
+@NoArgsConstructor
+@AllArgsConstructor
 public class Movie {
     @Id
     @ApiModelProperty(notes = "The Movie specific imdbID")
@@ -32,7 +37,7 @@ public class Movie {
     @ApiModelProperty(notes = "The poster Url of Movie")
     String posterUrl;
 
-    public Movie() {
+   /* public Movie() {
     }
 
     public Movie(String imdbId, String movieTitle, String yearOfRelease, String comment,double rating, String posterUrl) {
@@ -90,5 +95,5 @@ public class Movie {
 
     public void setPosterUrl(String posterUrl) {
         this.posterUrl = posterUrl;
-    }
+    }*/
 }

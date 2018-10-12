@@ -19,17 +19,17 @@ public class BootstrapConfiguration implements ApplicationListener<ContextRefres
 
     @Override
     public void run(String... args) throws Exception {
-        Movie movie = new Movie("tt342311213", "Manmarziyaan", "2018", "Thrilling Experience", 4.5, "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
+        Movie movie = new Movie("tt342311213", "Manmarziyaan", "2018", 4.5, "Thrilling Experience", "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
         movieRepository.save(movie);
     }
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
-        Movie movie = new Movie("tt342311210", "Manmarziyaan", "2018", "Thrilling Experience", 4.5, "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
+        Movie movie = new Movie("tt342311210", "Manmarziyaan", "2018", 4.5, "Thrilling Experience", "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
         movieRepository.save(movie);
-        movie = new Movie("tt342311211", "Venom", "2017", "Average Movie", 4.1, "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
+        movie = new Movie("tt342311211", "Venom", "2017", 4.3, "Average Movie", "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
         movieRepository.save(movie);
-        movie = new Movie("tt342311212", "Dangal", "2017", "Excellent Experience", 4.7, "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
+        movie = new Movie("tt342311212", "Dangal", "2017", 4.4, "Excellent Experience", "https://m.media-amazon.com/images/M/MV5BNTU3ZjEzMTYtYThjMC00ZjljLNzA@._V1_QL50_SY1000__.jpg");
         movieRepository.save(movie);
     }
 

@@ -89,7 +89,7 @@ public class MovieServiceTest {
 
         when(movieRepository.findAll()).thenReturn(movieList);
         list=movieService.getAllMovie();
-        Movie movie2=new Movie("3","test","test","test",4.2,"test");
+        Movie movie2=new Movie("3","test","test",4.5,"test","test");
         ArrayList<Movie> test=new ArrayList<Movie>();
         test.addAll(list);
         movieList.add(movie2);
