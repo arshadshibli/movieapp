@@ -1,7 +1,6 @@
-package com.stackroute.MovieCruiserApp.repository;
+package com.stackroute.moviecruiserapp.repository;
 
-import com.stackroute.MovieCruiserApp.domain.Movie;
-import org.jboss.logging.Param;
+import com.stackroute.moviecruiserapp.domain.Movie;
 //import org.springframework.data.jpa.repository.JpaRepository;
 //import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

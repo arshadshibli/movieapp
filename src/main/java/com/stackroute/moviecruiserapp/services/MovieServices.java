@@ -1,8 +1,8 @@
-package com.stackroute.MovieCruiserApp.services;
+package com.stackroute.moviecruiserapp.services;
 
-import com.stackroute.MovieCruiserApp.domain.Movie;
-import com.stackroute.MovieCruiserApp.exceptions.MovieAlreadyExistException;
-import com.stackroute.MovieCruiserApp.exceptions.MovieNotFoundException;
+import com.stackroute.moviecruiserapp.domain.Movie;
+import com.stackroute.moviecruiserapp.exceptions.MovieAlreadyExistException;
+import com.stackroute.moviecruiserapp.exceptions.MovieNotFoundException;
 
 import java.util.List;
 

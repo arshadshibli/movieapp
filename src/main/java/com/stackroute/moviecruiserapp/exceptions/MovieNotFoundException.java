@@ -1,4 +1,4 @@
-package com.stackroute.MovieCruiserApp.exceptions;
+package com.stackroute.moviecruiserapp.exceptions;
 
 public class MovieNotFoundException extends Exception {
     private String message;

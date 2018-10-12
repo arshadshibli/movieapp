@@ -1,30 +1,27 @@
-package com.stackroute.MovieCruiserApp.controller;
+package com.stackroute.moviecruiserapp.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.stackroute.MovieCruiserApp.domain.Movie;
-import com.stackroute.MovieCruiserApp.exceptions.MovieAlreadyExistException;
-import com.stackroute.MovieCruiserApp.exceptions.MovieNotFoundException;
-import com.stackroute.MovieCruiserApp.services.MovieServiceImpl;
+import com.stackroute.moviecruiserapp.domain.Movie;
+import com.stackroute.moviecruiserapp.exceptions.MovieAlreadyExistException;
+import com.stackroute.moviecruiserapp.exceptions.MovieNotFoundException;
+import com.stackroute.moviecruiserapp.services.MovieServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MockMvcBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import static org.mockito.Mockito.*;
 
-import javax.validation.constraints.Max;
 import java.util.ArrayList;
 import java.util.List;
 

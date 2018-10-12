@@ -1,6 +1,6 @@
-package com.stackroute.MovieCruiserApp.repository;
+package com.stackroute.moviecruiserapp.repository;
 
-import com.stackroute.MovieCruiserApp.domain.Movie;
+import com.stackroute.moviecruiserapp.domain.Movie;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -8,11 +8,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import java.util.List;
 @RunWith(SpringRunner.class )
@@ -96,7 +92,7 @@ public class MovieRepositoryTest {
         movieRepository.save(movie1);
         movieRepository.delete(movie);
         Movie retrievedMovie=movieRepository.findByimdbId(movie.getImdbId());
-        Assert.assertEquals(retrievedMovie,movie);
+        Assert.assertNotEquals(retrievedMovie,movie);
 
     }
 

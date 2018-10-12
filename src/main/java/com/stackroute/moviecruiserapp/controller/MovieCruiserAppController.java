@@ -1,39 +1,49 @@
-package com.stackroute.MovieCruiserApp.controller;
+package com.stackroute.moviecruiserapp.controller;
 
-import com.stackroute.MovieCruiserApp.domain.Movie;
-import com.stackroute.MovieCruiserApp.exceptions.MovieAlreadyExistException;
-import com.stackroute.MovieCruiserApp.exceptions.MovieNotFoundException;
-import com.stackroute.MovieCruiserApp.services.MovieServices;
+import com.stackroute.moviecruiserapp.domain.Movie;
+import com.stackroute.moviecruiserapp.exceptions.MovieAlreadyExistException;
+import com.stackroute.moviecruiserapp.exceptions.MovieNotFoundException;
+import com.stackroute.moviecruiserapp.services.MovieServices;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
 @RequestMapping("api/v1")
 @Api(value="movieapplication", description="Operations pertaining to a movie application")
 public class MovieCruiserAppController {
-    @Autowired
+
+   private Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    //@Autowired
 //    @Qualifier("movieServiceImpl")
     private MovieServices movieService;
+    @Autowired
+    public MovieCruiserAppController(MovieServices movieService) {
+        this.movieService = movieService;
+    }
 
     @ApiOperation(value = "Save a Movie in database", response = ResponseEntity.class)
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Successfully Saved Movie"),
             @ApiResponse(code = 401, message = "You are not authorized to save the movie"),
             @ApiResponse(code = 403, message = "Accessing the resource you were trying to reach is forbidden"),
-            @ApiResponse(code = 404, message = "The resource you were trying to reach is not found")
+            @ApiResponse(code = 404, message = "The resource you were trying to reach is not found"),
+            @ApiResponse(code = 400, message = "Invalid Arguement")
     }
     )
     @PostMapping()
-    public ResponseEntity<?> saveMovie(@RequestBody Movie movie){
+    public ResponseEntity<?> saveMovie(@Valid @RequestBody Movie movie)  {
         ResponseEntity responseEntity;
         try {
             Movie savedMovie = movieService.addMovie(movie);
@@ -41,7 +51,14 @@ public class MovieCruiserAppController {
         }
         catch (MovieAlreadyExistException e){
             responseEntity = new ResponseEntity<String>(e.getMessage(), HttpStatus.CONFLICT);
+            logger.error(e.getMessage());
             e.printStackTrace();
+        }
+        catch (Exception ex)
+        {
+            responseEntity = new ResponseEntity<String>(ex.getMessage(), HttpStatus.CONFLICT);
+            logger.error(ex.getMessage());
+            ex.printStackTrace();
         }
         return responseEntity;
     }
@@ -80,6 +97,13 @@ public class MovieCruiserAppController {
         catch (MovieNotFoundException e){
             responseEntity = new ResponseEntity<String>(e.getMessage(), HttpStatus.CONFLICT);
             e.printStackTrace();
+            logger.error(e.getMessage());
+        }
+        catch (Exception ex)
+        {
+            responseEntity = new ResponseEntity<String>(ex.getMessage(), HttpStatus.CONFLICT);
+            logger.error(ex.getMessage());
+            ex.printStackTrace();
         }
         return responseEntity;
     }
@@ -101,6 +125,13 @@ public class MovieCruiserAppController {
         }catch(MovieNotFoundException e){
             responseEntity = new ResponseEntity<String>(e.getMessage(), HttpStatus.CONFLICT);
             e.printStackTrace();
+            logger.error(e.getMessage());
+        }
+        catch (Exception ex)
+        {
+            responseEntity = new ResponseEntity<String>(ex.getMessage(), HttpStatus.CONFLICT);
+            logger.error(ex.getMessage());
+            ex.printStackTrace();
         }
         return responseEntity;
     }
@@ -120,9 +151,16 @@ public class MovieCruiserAppController {
             Movie searchMovie = movieService.getMovieByName(movieName);
             responseEntity = new ResponseEntity<Movie>(searchMovie, HttpStatus.OK);
         }
-        catch ( Exception e){
+        catch ( MovieNotFoundException e){
             responseEntity = new ResponseEntity<String>(e.getMessage(), HttpStatus.CONFLICT);
             e.printStackTrace();
+            logger.error(e.getMessage());
+        }
+        catch (Exception ex)
+        {
+            responseEntity = new ResponseEntity<String>(ex.getMessage(), HttpStatus.CONFLICT);
+            logger.error(ex.getMessage());
+            ex.printStackTrace();
         }
         return responseEntity;
     }

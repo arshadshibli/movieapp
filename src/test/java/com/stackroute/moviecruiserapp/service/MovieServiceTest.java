@@ -1,11 +1,10 @@
-package com.stackroute.MovieCruiserApp.service;
+package com.stackroute.moviecruiserapp.service;
 
-import com.stackroute.MovieCruiserApp.domain.Movie;
-import com.stackroute.MovieCruiserApp.exceptions.MovieAlreadyExistException;
-import com.stackroute.MovieCruiserApp.exceptions.MovieNotFoundException;
-import com.stackroute.MovieCruiserApp.repository.MovieRepository;
-import com.stackroute.MovieCruiserApp.services.MovieServiceImpl;
-import javafx.beans.binding.When;
+import com.stackroute.moviecruiserapp.domain.Movie;
+import com.stackroute.moviecruiserapp.exceptions.MovieAlreadyExistException;
+import com.stackroute.moviecruiserapp.exceptions.MovieNotFoundException;
+import com.stackroute.moviecruiserapp.repository.MovieRepository;
+import com.stackroute.moviecruiserapp.services.MovieServiceImpl;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -13,11 +12,9 @@ import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 import static org.mockito.ArgumentMatchers.any;
@@ -64,7 +61,7 @@ public class MovieServiceTest {
     }
 
     @Test
-    public void addMovieTestSuccess() throws MovieAlreadyExistException {
+    public void addMovieTestSuccess() throws MovieAlreadyExistException, MethodArgumentNotValidException {
         when(movieRepository.save((Movie) any())).thenReturn(movie);
         Movie savedMovie = movieService.addMovie(movie);
         Assert.assertEquals(movie, savedMovie);
@@ -72,7 +69,7 @@ public class MovieServiceTest {
     }
 
     @Test(expected = MovieAlreadyExistException.class)
-    public void addMovieTestFailure() throws MovieAlreadyExistException {
+    public void addMovieTestFailure() throws MovieAlreadyExistException,MethodArgumentNotValidException {
         when(movieRepository.save((Movie) any())).thenReturn(null);
         Movie savedMovie = movieService.addMovie(movie);;
         Assert.assertNotEquals(movie, savedMovie);

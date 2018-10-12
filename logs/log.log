@@ -1,0 +1,839 @@
+12-10-2018 14:51:59.845 [main] INFO  c.s.M.c.MovieCruiserAppControllerTest.logStarting - Starting MovieCruiserAppControllerTest on cgi-Latitude-E5440 with PID 14099 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 14:51:59.850 [main] DEBUG c.s.M.c.MovieCruiserAppControllerTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 14:51:59.863 [main] INFO  c.s.M.c.MovieCruiserAppControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 14:52:02.363 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:02.364 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:02.384 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 20 ms
+.root=WARN12-10-2018 14:52:02.447 [main] INFO  c.s.M.c.MovieCruiserAppControllerTest.logStarted - Started MovieCruiserAppControllerTest in 3.255 seconds (JVM running for 5.677)
+.root=WARN12-10-2018 14:52:02.515 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:02.516 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:02.516 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 14:52:02.812 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:02.813 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:02.813 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 14:52:03.047 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:03.048 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:03.049 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 14:52:03.106 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:03.106 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:03.107 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 14:52:03.141 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:03.142 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:03.143 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 1 ms
+.root=WARN12-10-2018 14:52:03.164 [main] ERROR c.s.M.c.MovieCruiserAppController.deleteMovie - null
+.root=WARN12-10-2018 14:52:03.226 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:03.228 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:03.228 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 14:52:03.247 [main] ERROR c.s.M.c.MovieCruiserAppController.updateMovie - null
+.root=WARN12-10-2018 14:52:03.315 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:03.316 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:03.316 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 14:52:03.353 [main] ERROR c.s.M.c.MovieCruiserAppController.saveMovie - null
+.root=WARN12-10-2018 14:52:03.410 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:03.410 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:03.411 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 14:52:03.424 [main] ERROR c.s.M.c.MovieCruiserAppController.searcheMovie - null
+.root=WARN12-10-2018 14:52:03.466 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 14:52:03.467 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 14:52:03.467 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 14:52:11.494 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarting - Starting MovieRepositoryTest on cgi-Latitude-E5440 with PID 14159 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 14:52:11.498 [main] DEBUG c.s.M.repository.MovieRepositoryTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 14:52:11.520 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 14:52:11.558 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@841e575: startup date [Fri Oct 12 14:52:11 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:52:13.259 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - note: noprealloc may hurt performance in many applications
+.root=WARN12-10-2018 14:52:13.278 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten] MongoDB starting : pid=14204 port=27017 dbpath=/tmp/embedmongo-db-2061f29d-599e-441a-8585-fd446127060c 64-bit host=cgi-Latitude-E5440
+.root=WARN12-10-2018 14:52:13.278 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten] db version v3.2.2
+.root=WARN12-10-2018 14:52:13.278 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+.root=WARN12-10-2018 14:52:13.278 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+.root=WARN12-10-2018 14:52:13.278 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten] modules: none
+.root=WARN12-10-2018 14:52:13.279 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten] build environment:
+.root=WARN12-10-2018 14:52:13.279 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten]     distarch: x86_64
+.root=WARN12-10-2018 14:52:13.279 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+.root=WARN12-10-2018 14:52:13.279 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.277+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-2061f29d-599e-441a-8585-fd446127060c", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+.root=WARN12-10-2018 14:52:13.282 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.282+0530 E NETWORK  [initandlisten] listen(): bind() failed errno:98 Address already in use for socket: 127.0.0.1:27017
+.root=WARN12-10-2018 14:52:13.283 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.282+0530 E NETWORK  [initandlisten]   addr already in use
+.root=WARN12-10-2018 14:52:13.284 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.282+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+.root=WARN12-10-2018 14:52:13.287 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:13.282+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+.root=WARN12-10-2018 14:52:13.294 [main] ERROR d.f.e.p.runtime.AbstractProcess.<init> - failed to call onAfterProcessStart()
+.root=WARNjava.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T14:52:13.282+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T14:52:13.282+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T14:52:13.282+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.onAfterProcessStart(AbstractMongoProcess.java:79)
+	at de.flapdoodle.embed.process.runtime.AbstractProcess.<init>(AbstractProcess.java:116)
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.<init>(AbstractMongoProcess.java:53)
+	at de.flapdoodle.embed.mongo.MongodProcess.<init>(MongodProcess.java:50)
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:44)
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:34)
+	at de.flapdoodle.embed.process.runtime.Executable.start(Executable.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+12-10-2018 14:52:13.295 [main] INFO  d.f.e.p.runtime.AbstractProcess.<init> - construct de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@732c9b5c
+.root=WARN12-10-2018 14:52:13.679 [main] WARN  d.f.e.p.runtime.AbstractProcess.stop - Could not delete pid file: /tmp/extract-9a088bae-cb70-4b9d-afb1-a421688d76b9extractmongod.pid
+.root=WARN12-10-2018 14:52:13.680 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedMongoServer' defined in class path resource [org/springframework/boot/autoconfigure/mongo/embedded/EmbeddedMongoAutoConfiguration.class]: Invocation of init method failed; nested exception is java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T14:52:13.282+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T14:52:13.282+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T14:52:13.282+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+.root=WARN12-10-2018 14:52:13.686 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+.root=WARN12-10-2018 14:52:13.690 [main] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+.root=WARNorg.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedMongoServer' defined in class path resource [org/springframework/boot/autoconfigure/mongo/embedded/EmbeddedMongoAutoConfiguration.class]: Invocation of init method failed; nested exception is java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T14:52:13.282+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T14:52:13.282+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T14:52:13.282+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T14:52:13.282+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T14:52:13.282+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T14:52:13.282+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.onAfterProcessStart(AbstractMongoProcess.java:79)
+	at de.flapdoodle.embed.process.runtime.AbstractProcess.<init>(AbstractProcess.java:116)
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.<init>(AbstractMongoProcess.java:53)
+	at de.flapdoodle.embed.mongo.MongodProcess.<init>(MongodProcess.java:50)
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:44)
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:34)
+	at de.flapdoodle.embed.process.runtime.Executable.start(Executable.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 40 common frames omitted
+12-10-2018 14:52:13.775 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarting - Starting MovieRepositoryTest on cgi-Latitude-E5440 with PID 14159 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 14:52:13.776 [main] DEBUG c.s.M.repository.MovieRepositoryTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 14:52:13.780 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 14:52:13.784 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@96a75da: startup date [Fri Oct 12 14:52:13 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:52:14.149 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - note: noprealloc may hurt performance in many applications
+.root=WARN12-10-2018 14:52:14.151 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten] MongoDB starting : pid=14211 port=27017 dbpath=/tmp/embedmongo-db-ed1ce57b-ea33-4ef3-bc07-61312b9ca186 64-bit host=cgi-Latitude-E5440
+.root=WARN12-10-2018 14:52:14.152 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten] db version v3.2.2
+.root=WARN12-10-2018 14:52:14.152 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+.root=WARN12-10-2018 14:52:14.152 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+.root=WARN12-10-2018 14:52:14.152 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten] modules: none
+.root=WARN12-10-2018 14:52:14.153 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten] build environment:
+.root=WARN12-10-2018 14:52:14.153 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten]     distarch: x86_64
+.root=WARN12-10-2018 14:52:14.153 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+.root=WARN12-10-2018 14:52:14.153 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.151+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-ed1ce57b-ea33-4ef3-bc07-61312b9ca186", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+.root=WARN12-10-2018 14:52:14.156 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.156+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+.root=WARN12-10-2018 14:52:14.798 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.798+0530 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+.root=WARN12-10-2018 14:52:14.798 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.798+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:52:14.799 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.798+0530 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+.root=WARN12-10-2018 14:52:14.799 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.798+0530 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+.root=WARN12-10-2018 14:52:14.799 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.798+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:52:14.800 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.798+0530 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 31383 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+.root=WARN12-10-2018 14:52:14.800 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.798+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:52:14.800 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.798+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-ed1ce57b-ea33-4ef3-bc07-61312b9ca186/diagnostic.data'
+.root=WARN12-10-2018 14:52:14.800 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:14.799+0530 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+.root=WARN12-10-2018 14:52:15.040 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:15.039+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+.root=WARN12-10-2018 14:52:15.040 [main] INFO  d.f.embed.process.runtime.Executable.start - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@28501a4b
+.root=WARN12-10-2018 14:52:15.269 [main] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+.root=WARN12-10-2018 14:52:15.307 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:15.307+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52880 #1 (1 connection now open)
+.root=WARN12-10-2018 14:52:15.362 [cluster-ClusterId{value='5bc067c71ff2a7374f99a351', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+.root=WARN12-10-2018 14:52:15.366 [cluster-ClusterId{value='5bc067c71ff2a7374f99a351', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1427896}
+.root=WARN12-10-2018 14:52:15.787 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarted - Started MovieRepositoryTest in 2.088 seconds (JVM running for 7.257)
+.root=WARN12-10-2018 14:52:15.808 [main] ERROR o.s.test.context.TestContextManager.prepareTestInstance - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7d9d0818] to prepare test instance [com.stackroute.moviecruiserapp.repository.MovieRepositoryTest@1a4927d6]
+.root=WARNjava.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedMongoServer' defined in class path resource [org/springframework/boot/autoconfigure/mongo/embedded/EmbeddedMongoAutoConfiguration.class]: Invocation of init method failed; nested exception is java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T14:52:13.282+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T14:52:13.282+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T14:52:13.282+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) ~[spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 25 common frames omitted
+Caused by: java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T14:52:13.282+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T14:52:13.282+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T14:52:13.282+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.onAfterProcessStart(AbstractMongoProcess.java:79) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.process.runtime.AbstractProcess.<init>(AbstractProcess.java:116) ~[de.flapdoodle.embed.process-2.0.2.jar:na]
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.<init>(AbstractMongoProcess.java:53) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.mongo.MongodProcess.<init>(MongodProcess.java:50) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:44) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:34) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.process.runtime.Executable.start(Executable.java:108) ~[de.flapdoodle.embed.process-2.0.2.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 40 common frames omitted
+12-10-2018 14:52:15.965 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:15.964+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52882 #2 (2 connections now open)
+.root=WARN12-10-2018 14:52:15.968 [main] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+.root=WARN12-10-2018 14:52:16.289 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.289+0530 I WRITE    [conn2] update test_movie.movie query: { _id: "1" } update: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" } keysExamined:0 docsExamined:0 nMatched:1 nModified:1 upsert:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 312ms
+.root=WARN12-10-2018 14:52:16.290 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.289+0530 I COMMAND  [conn2] command test_movie.$cmd command: update { update: "movie", ordered: true, updates: [ { q: { _id: "1" }, u: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" }, upsert: true } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:100 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 312ms
+.root=WARN12-10-2018 14:52:16.421 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@96a75da: startup date [Fri Oct 12 14:52:13 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:52:16.424 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.424+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52884 #3 (3 connections now open)
+.root=WARN12-10-2018 14:52:16.430 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.429+0530 I COMMAND  [conn3] terminating, shutdown command received
+.root=WARN12-10-2018 14:52:16.430 [Thread-8] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+.root=WARN12-10-2018 14:52:16.431 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.431+0530 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+.root=WARN12-10-2018 14:52:16.432 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.432+0530 I NETWORK  [conn2] end connection 127.0.0.1:52882 (2 connections now open)
+.root=WARN12-10-2018 14:52:16.433 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.433+0530 I CONTROL  [conn3] now exiting
+.root=WARN12-10-2018 14:52:16.434 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.433+0530 I NETWORK  [conn3] shutdown: going to close listening sockets...
+.root=WARN12-10-2018 14:52:16.434 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.433+0530 I NETWORK  [conn3] closing listening socket: 5
+.root=WARN12-10-2018 14:52:16.434 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.433+0530 I NETWORK  [conn3] closing listening socket: 6
+.root=WARN12-10-2018 14:52:16.435 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.433+0530 I NETWORK  [conn3] removing socket file: /tmp/mongodb-27017.sock
+.root=WARN12-10-2018 14:52:16.436 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.433+0530 I NETWORK  [conn3] shutdown: going to flush diaglog...
+.root=WARN12-10-2018 14:52:16.436 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.433+0530 I NETWORK  [conn3] shutdown: going to close sockets...
+.root=WARN12-10-2018 14:52:16.438 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.433+0530 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+.root=WARN12-10-2018 14:52:16.438 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:52:16.435+0530 I NETWORK  [conn1] end connection 127.0.0.1:52880 (1 connection now open)
+.root=WARN12-10-2018 14:52:16.534 [Thread-5] INFO  d.f.e.process.runtime.ProcessControl.stopOrDestroyProcess - stopOrDestroyProcess: process hasn't exited 
+.root=WARN12-10-2018 14:52:16.697 [Thread-5] WARN  d.f.e.p.runtime.AbstractProcess.stop - Could not delete pid file: /tmp/extract-3cabddde-3898-45d1-ac3b-0ffe0a5fb0bfextractmongod.pid
+.root=WARN12-10-2018 14:53:32.206 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarting - Starting MovieRepositoryTest on cgi-Latitude-E5440 with PID 14268 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 14:53:32.209 [main] DEBUG c.s.M.repository.MovieRepositoryTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 14:53:32.221 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 14:53:32.258 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@841e575: startup date [Fri Oct 12 14:53:32 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:53:33.301 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - note: noprealloc may hurt performance in many applications
+.root=WARN12-10-2018 14:53:33.309 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten] MongoDB starting : pid=14329 port=27017 dbpath=/tmp/embedmongo-db-dc037db0-8fb2-44d3-903c-794dd97d188a 64-bit host=cgi-Latitude-E5440
+.root=WARN12-10-2018 14:53:33.309 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten] db version v3.2.2
+.root=WARN12-10-2018 14:53:33.310 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+.root=WARN12-10-2018 14:53:33.310 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+.root=WARN12-10-2018 14:53:33.310 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten] modules: none
+.root=WARN12-10-2018 14:53:33.311 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten] build environment:
+.root=WARN12-10-2018 14:53:33.311 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten]     distarch: x86_64
+.root=WARN12-10-2018 14:53:33.311 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+.root=WARN12-10-2018 14:53:33.311 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.301+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-dc037db0-8fb2-44d3-903c-794dd97d188a", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+.root=WARN12-10-2018 14:53:33.312 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.306+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+.root=WARN12-10-2018 14:53:33.963 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.963+0530 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+.root=WARN12-10-2018 14:53:33.964 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.963+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:53:33.965 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.963+0530 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+.root=WARN12-10-2018 14:53:33.965 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.963+0530 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+.root=WARN12-10-2018 14:53:33.965 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.963+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:53:33.966 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.963+0530 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 31383 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+.root=WARN12-10-2018 14:53:33.966 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.963+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:53:33.966 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.964+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-dc037db0-8fb2-44d3-903c-794dd97d188a/diagnostic.data'
+.root=WARN12-10-2018 14:53:33.966 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:33.964+0530 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+.root=WARN12-10-2018 14:53:34.238 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:34.238+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+.root=WARN12-10-2018 14:53:34.239 [main] INFO  d.f.embed.process.runtime.Executable.start - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@43f61afb
+.root=WARN12-10-2018 14:53:34.497 [main] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+.root=WARN12-10-2018 14:53:34.533 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:34.533+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52896 #1 (1 connection now open)
+.root=WARN12-10-2018 14:53:34.572 [cluster-ClusterId{value='5bc068161ff2a737bcf3ac4b', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+.root=WARN12-10-2018 14:53:34.576 [cluster-ClusterId{value='5bc068161ff2a737bcf3ac4b', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1952738}
+.root=WARN12-10-2018 14:53:35.016 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarted - Started MovieRepositoryTest in 3.95 seconds (JVM running for 5.548)
+.root=WARN12-10-2018 14:53:35.127 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.126+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52898 #2 (2 connections now open)
+.root=WARN12-10-2018 14:53:35.133 [main] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+.root=WARN12-10-2018 14:53:35.438 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.437+0530 I WRITE    [conn2] update test_movie.movie query: { _id: "1" } update: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" } keysExamined:0 docsExamined:0 nMatched:1 nModified:1 upsert:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 292ms
+.root=WARN12-10-2018 14:53:35.439 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.438+0530 I COMMAND  [conn2] command test_movie.$cmd command: update { update: "movie", ordered: true, updates: [ { q: { _id: "1" }, u: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" }, upsert: true } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:100 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 292ms
+.root=WARN12-10-2018 14:53:35.474 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.474+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52900 #3 (3 connections now open)
+.root=WARN12-10-2018 14:53:35.475 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.474+0530 I COMMAND  [conn3] terminating, shutdown command received
+.root=WARN12-10-2018 14:53:35.475 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.474+0530 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+.root=WARN12-10-2018 14:53:35.475 [Thread-4] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@841e575: startup date [Fri Oct 12 14:53:32 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:53:35.476 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.476+0530 I CONTROL  [conn3] now exiting
+.root=WARN12-10-2018 14:53:35.476 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.476+0530 I NETWORK  [conn3] shutdown: going to close listening sockets...
+.root=WARN12-10-2018 14:53:35.477 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.476+0530 I NETWORK  [conn3] closing listening socket: 5
+.root=WARN12-10-2018 14:53:35.478 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.476+0530 I NETWORK  [conn3] closing listening socket: 6
+.root=WARN12-10-2018 14:53:35.478 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.476+0530 I NETWORK  [conn3] removing socket file: /tmp/mongodb-27017.sock
+.root=WARN12-10-2018 14:53:35.478 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.476+0530 I NETWORK  [conn3] shutdown: going to flush diaglog...
+.root=WARN12-10-2018 14:53:35.478 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.476+0530 I NETWORK  [conn3] shutdown: going to close sockets...
+.root=WARN12-10-2018 14:53:35.478 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.476+0530 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+.root=WARN12-10-2018 14:53:35.479 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.477+0530 I NETWORK  [conn1] end connection 127.0.0.1:52896 (2 connections now open)
+.root=WARN12-10-2018 14:53:35.479 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:35.477+0530 I NETWORK  [conn2] end connection 127.0.0.1:52898 (1 connection now open)
+.root=WARN12-10-2018 14:53:35.484 [Thread-4] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+.root=WARN12-10-2018 14:53:35.577 [Thread-1] INFO  d.f.e.process.runtime.ProcessControl.stopOrDestroyProcess - stopOrDestroyProcess: process hasn't exited 
+.root=WARN12-10-2018 14:53:35.752 [Thread-1] WARN  d.f.e.p.runtime.AbstractProcess.stop - Could not delete pid file: /tmp/extract-efbdfcf2-82df-453b-adf6-af1ff8e2f756extractmongod.pid
+.root=WARN12-10-2018 14:53:44.096 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarting - Starting MovieRepositoryTest on cgi-Latitude-E5440 with PID 14360 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 14:53:44.099 [main] DEBUG c.s.M.repository.MovieRepositoryTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 14:53:44.124 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 14:53:44.170 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@841e575: startup date [Fri Oct 12 14:53:44 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:53:45.312 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - note: noprealloc may hurt performance in many applications
+.root=WARN12-10-2018 14:53:45.323 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten] MongoDB starting : pid=14417 port=27017 dbpath=/tmp/embedmongo-db-5a5b818c-c8bc-4a93-adb7-14d1b228fae7 64-bit host=cgi-Latitude-E5440
+.root=WARN12-10-2018 14:53:45.323 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten] db version v3.2.2
+.root=WARN12-10-2018 14:53:45.323 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+.root=WARN12-10-2018 14:53:45.323 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+.root=WARN12-10-2018 14:53:45.324 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten] modules: none
+.root=WARN12-10-2018 14:53:45.324 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten] build environment:
+.root=WARN12-10-2018 14:53:45.324 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten]     distarch: x86_64
+.root=WARN12-10-2018 14:53:45.325 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+.root=WARN12-10-2018 14:53:45.325 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.316+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-5a5b818c-c8bc-4a93-adb7-14d1b228fae7", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+.root=WARN12-10-2018 14:53:45.326 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.321+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+.root=WARN12-10-2018 14:53:45.995 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+.root=WARN12-10-2018 14:53:45.996 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:53:45.997 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+.root=WARN12-10-2018 14:53:45.997 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+.root=WARN12-10-2018 14:53:45.997 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:53:45.997 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 31383 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+.root=WARN12-10-2018 14:53:45.997 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:53:45.998 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-5a5b818c-c8bc-4a93-adb7-14d1b228fae7/diagnostic.data'
+.root=WARN12-10-2018 14:53:45.998 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:45.995+0530 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+.root=WARN12-10-2018 14:53:46.261 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:46.261+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+.root=WARN12-10-2018 14:53:46.262 [main] INFO  d.f.embed.process.runtime.Executable.start - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@7026b7ee
+.root=WARN12-10-2018 14:53:46.517 [main] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+.root=WARN12-10-2018 14:53:46.549 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:46.548+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52908 #1 (1 connection now open)
+.root=WARN12-10-2018 14:53:46.588 [cluster-ClusterId{value='5bc068221ff2a73818e2c7bb', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+.root=WARN12-10-2018 14:53:46.591 [cluster-ClusterId{value='5bc068221ff2a73818e2c7bb', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1858054}
+.root=WARN12-10-2018 14:53:47.008 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarted - Started MovieRepositoryTest in 4.132 seconds (JVM running for 5.712)
+.root=WARN12-10-2018 14:53:47.105 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.105+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52910 #2 (2 connections now open)
+.root=WARN12-10-2018 14:53:47.108 [main] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+.root=WARN12-10-2018 14:53:47.387 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.387+0530 I WRITE    [conn2] update test_movie.movie query: { _id: "1" } update: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" } keysExamined:0 docsExamined:0 nMatched:1 nModified:1 upsert:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 269ms
+.root=WARN12-10-2018 14:53:47.388 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.387+0530 I COMMAND  [conn2] command test_movie.$cmd command: update { update: "movie", ordered: true, updates: [ { q: { _id: "1" }, u: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" }, upsert: true } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:100 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 269ms
+.root=WARN12-10-2018 14:53:47.437 [Thread-4] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@841e575: startup date [Fri Oct 12 14:53:44 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:53:47.444 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.444+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52912 #3 (3 connections now open)
+.root=WARN12-10-2018 14:53:47.446 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.444+0530 I COMMAND  [conn3] terminating, shutdown command received
+.root=WARN12-10-2018 14:53:47.446 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.444+0530 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+.root=WARN12-10-2018 14:53:47.447 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.446+0530 I CONTROL  [conn3] now exiting
+.root=WARN12-10-2018 14:53:47.447 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.446+0530 I NETWORK  [conn3] shutdown: going to close listening sockets...
+.root=WARN12-10-2018 14:53:47.447 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.446+0530 I NETWORK  [conn3] closing listening socket: 5
+.root=WARN12-10-2018 14:53:47.447 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.446+0530 I NETWORK  [conn3] closing listening socket: 6
+.root=WARN12-10-2018 14:53:47.447 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.446+0530 I NETWORK  [conn3] removing socket file: /tmp/mongodb-27017.sock
+.root=WARN12-10-2018 14:53:47.448 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.446+0530 I NETWORK  [conn3] shutdown: going to flush diaglog...
+.root=WARN12-10-2018 14:53:47.448 [Thread-4] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+.root=WARN12-10-2018 14:53:47.448 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.446+0530 I NETWORK  [conn3] shutdown: going to close sockets...
+.root=WARN12-10-2018 14:53:47.449 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.446+0530 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+.root=WARN12-10-2018 14:53:47.450 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.447+0530 I NETWORK  [conn2] end connection 127.0.0.1:52910 (2 connections now open)
+.root=WARN12-10-2018 14:53:47.450 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:53:47.447+0530 I NETWORK  [conn1] end connection 127.0.0.1:52908 (2 connections now open)
+.root=WARN12-10-2018 14:53:47.547 [Thread-1] INFO  d.f.e.process.runtime.ProcessControl.stopOrDestroyProcess - stopOrDestroyProcess: process hasn't exited 
+.root=WARN12-10-2018 14:53:47.693 [Thread-1] WARN  d.f.e.p.runtime.AbstractProcess.stop - Could not delete pid file: /tmp/extract-db839403-9bb0-4ea4-972e-03cc1c1f535eextractmongod.pid
+.root=WARN12-10-2018 14:54:50.117 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarting - Starting MovieRepositoryTest on cgi-Latitude-E5440 with PID 14463 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 14:54:50.119 [main] DEBUG c.s.M.repository.MovieRepositoryTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 14:54:50.130 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 14:54:50.167 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b62442c: startup date [Fri Oct 12 14:54:50 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:54:51.400 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - note: noprealloc may hurt performance in many applications
+.root=WARN12-10-2018 14:54:51.403 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten] MongoDB starting : pid=14512 port=27017 dbpath=/tmp/embedmongo-db-d2f034f8-700b-4d28-9606-da160faa76df 64-bit host=cgi-Latitude-E5440
+.root=WARN12-10-2018 14:54:51.404 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten] db version v3.2.2
+.root=WARN12-10-2018 14:54:51.404 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+.root=WARN12-10-2018 14:54:51.404 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+.root=WARN12-10-2018 14:54:51.404 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten] modules: none
+.root=WARN12-10-2018 14:54:51.404 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten] build environment:
+.root=WARN12-10-2018 14:54:51.405 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten]     distarch: x86_64
+.root=WARN12-10-2018 14:54:51.405 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+.root=WARN12-10-2018 14:54:51.405 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.403+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-d2f034f8-700b-4d28-9606-da160faa76df", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+.root=WARN12-10-2018 14:54:51.408 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:51.407+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+.root=WARN12-10-2018 14:54:52.043 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.042+0530 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+.root=WARN12-10-2018 14:54:52.043 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.043+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:54:52.044 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.043+0530 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+.root=WARN12-10-2018 14:54:52.044 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.043+0530 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+.root=WARN12-10-2018 14:54:52.044 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.043+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:54:52.044 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.043+0530 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 31383 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+.root=WARN12-10-2018 14:54:52.045 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.043+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 14:54:52.045 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.043+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-d2f034f8-700b-4d28-9606-da160faa76df/diagnostic.data'
+.root=WARN12-10-2018 14:54:52.045 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.043+0530 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+.root=WARN12-10-2018 14:54:52.303 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.302+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+.root=WARN12-10-2018 14:54:52.303 [main] INFO  d.f.embed.process.runtime.Executable.start - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@1aac188d
+.root=WARN12-10-2018 14:54:52.555 [main] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+.root=WARN12-10-2018 14:54:52.612 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:52.611+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52924 #1 (1 connection now open)
+.root=WARN12-10-2018 14:54:52.651 [cluster-ClusterId{value='5bc068641ff2a7387f895427', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+.root=WARN12-10-2018 14:54:52.661 [cluster-ClusterId{value='5bc068641ff2a7387f895427', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2122826}
+.root=WARN12-10-2018 14:54:53.142 [main] INFO  c.s.M.repository.MovieRepositoryTest.logStarted - Started MovieRepositoryTest in 4.071 seconds (JVM running for 5.764)
+.root=WARN12-10-2018 14:54:53.253 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.253+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52926 #2 (2 connections now open)
+.root=WARN12-10-2018 14:54:53.257 [main] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+.root=WARN12-10-2018 14:54:53.550 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.549+0530 I WRITE    [conn2] update test_movie.movie query: { _id: "1" } update: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" } keysExamined:0 docsExamined:0 nMatched:1 nModified:1 upsert:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 281ms
+.root=WARN12-10-2018 14:54:53.550 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.550+0530 I COMMAND  [conn2] command test_movie.$cmd command: update { update: "movie", ordered: true, updates: [ { q: { _id: "1" }, u: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" }, upsert: true } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:100 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 281ms
+.root=WARN12-10-2018 14:54:53.597 [Thread-4] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2b62442c: startup date [Fri Oct 12 14:54:50 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 14:54:53.597 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.597+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52928 #3 (3 connections now open)
+.root=WARN12-10-2018 14:54:53.598 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.598+0530 I COMMAND  [conn3] terminating, shutdown command received
+.root=WARN12-10-2018 14:54:53.599 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.599+0530 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+.root=WARN12-10-2018 14:54:53.601 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.600+0530 I CONTROL  [conn3] now exiting
+.root=WARN12-10-2018 14:54:53.601 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.601+0530 I NETWORK  [conn3] shutdown: going to close listening sockets...
+.root=WARN12-10-2018 14:54:53.601 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.601+0530 I NETWORK  [conn3] closing listening socket: 5
+.root=WARN12-10-2018 14:54:53.602 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.601+0530 I NETWORK  [conn3] closing listening socket: 6
+.root=WARN12-10-2018 14:54:53.604 [Thread-4] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+.root=WARN12-10-2018 14:54:53.604 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.601+0530 I NETWORK  [conn3] removing socket file: /tmp/mongodb-27017.sock
+.root=WARN12-10-2018 14:54:53.605 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.601+0530 I NETWORK  [conn3] shutdown: going to flush diaglog...
+.root=WARN12-10-2018 14:54:53.606 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.601+0530 I NETWORK  [conn3] shutdown: going to close sockets...
+.root=WARN12-10-2018 14:54:53.606 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.601+0530 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+.root=WARN12-10-2018 14:54:53.606 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.602+0530 I NETWORK  [conn2] end connection 127.0.0.1:52926 (2 connections now open)
+.root=WARN12-10-2018 14:54:53.606 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T14:54:53.602+0530 I NETWORK  [conn1] end connection 127.0.0.1:52924 (2 connections now open)
+.root=WARN12-10-2018 14:54:53.702 [Thread-1] INFO  d.f.e.process.runtime.ProcessControl.stopOrDestroyProcess - stopOrDestroyProcess: process hasn't exited 
+.root=WARN12-10-2018 14:54:53.865 [Thread-1] WARN  d.f.e.p.runtime.AbstractProcess.stop - Could not delete pid file: /tmp/extract-e47469ee-1a32-4699-909e-af303b07246dextractmongod.pid
+.root=WARN12-10-2018 17:52:34.421 [main] INFO  c.s.m.repository.MovieRepositoryTest.logStarting - Starting MovieRepositoryTest on cgi-Latitude-E5440 with PID 18094 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 17:52:34.423 [main] DEBUG c.s.m.repository.MovieRepositoryTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 17:52:34.431 [main] INFO  c.s.m.repository.MovieRepositoryTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 17:52:34.475 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6865c751: startup date [Fri Oct 12 17:52:34 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 17:52:35.542 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - note: noprealloc may hurt performance in many applications
+.root=WARN12-10-2018 17:52:35.544 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten] MongoDB starting : pid=18150 port=27017 dbpath=/tmp/embedmongo-db-329b831d-3b8f-4748-832b-e1f211f1f19b 64-bit host=cgi-Latitude-E5440
+.root=WARN12-10-2018 17:52:35.545 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten] db version v3.2.2
+.root=WARN12-10-2018 17:52:35.545 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+.root=WARN12-10-2018 17:52:35.545 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+.root=WARN12-10-2018 17:52:35.546 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten] modules: none
+.root=WARN12-10-2018 17:52:35.546 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten] build environment:
+.root=WARN12-10-2018 17:52:35.546 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten]     distarch: x86_64
+.root=WARN12-10-2018 17:52:35.547 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+.root=WARN12-10-2018 17:52:35.547 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.544+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-329b831d-3b8f-4748-832b-e1f211f1f19b", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+.root=WARN12-10-2018 17:52:35.549 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.548+0530 E NETWORK  [initandlisten] listen(): bind() failed errno:98 Address already in use for socket: 127.0.0.1:27017
+.root=WARN12-10-2018 17:52:35.550 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.548+0530 E NETWORK  [initandlisten]   addr already in use
+.root=WARN12-10-2018 17:52:35.552 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.548+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+.root=WARN12-10-2018 17:52:35.552 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:35.548+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+.root=WARN12-10-2018 17:52:35.556 [main] ERROR d.f.e.p.runtime.AbstractProcess.<init> - failed to call onAfterProcessStart()
+.root=WARNjava.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T17:52:35.548+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T17:52:35.548+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T17:52:35.548+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.onAfterProcessStart(AbstractMongoProcess.java:79)
+	at de.flapdoodle.embed.process.runtime.AbstractProcess.<init>(AbstractProcess.java:116)
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.<init>(AbstractMongoProcess.java:53)
+	at de.flapdoodle.embed.mongo.MongodProcess.<init>(MongodProcess.java:50)
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:44)
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:34)
+	at de.flapdoodle.embed.process.runtime.Executable.start(Executable.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+12-10-2018 17:52:35.556 [main] INFO  d.f.e.p.runtime.AbstractProcess.<init> - construct de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@5a00eb1e
+.root=WARN12-10-2018 17:52:36.471 [main] WARN  d.f.e.p.runtime.AbstractProcess.stop - Could not delete pid file: /tmp/extract-2b2b297a-af9b-4a1e-b7d0-2b60227cffc1extractmongod.pid
+.root=WARN12-10-2018 17:52:36.472 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedMongoServer' defined in class path resource [org/springframework/boot/autoconfigure/mongo/embedded/EmbeddedMongoAutoConfiguration.class]: Invocation of init method failed; nested exception is java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T17:52:35.548+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T17:52:35.548+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T17:52:35.548+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+.root=WARN12-10-2018 17:52:36.476 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+.root=WARN12-10-2018 17:52:36.479 [main] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+.root=WARNorg.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedMongoServer' defined in class path resource [org/springframework/boot/autoconfigure/mongo/embedded/EmbeddedMongoAutoConfiguration.class]: Invocation of init method failed; nested exception is java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T17:52:35.548+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T17:52:35.548+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T17:52:35.548+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T17:52:35.548+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T17:52:35.548+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T17:52:35.548+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.onAfterProcessStart(AbstractMongoProcess.java:79)
+	at de.flapdoodle.embed.process.runtime.AbstractProcess.<init>(AbstractProcess.java:116)
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.<init>(AbstractMongoProcess.java:53)
+	at de.flapdoodle.embed.mongo.MongodProcess.<init>(MongodProcess.java:50)
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:44)
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:34)
+	at de.flapdoodle.embed.process.runtime.Executable.start(Executable.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 40 common frames omitted
+12-10-2018 17:52:36.552 [main] INFO  c.s.m.repository.MovieRepositoryTest.logStarting - Starting MovieRepositoryTest on cgi-Latitude-E5440 with PID 18094 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 17:52:36.553 [main] DEBUG c.s.m.repository.MovieRepositoryTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 17:52:36.556 [main] INFO  c.s.m.repository.MovieRepositoryTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 17:52:36.559 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d469831: startup date [Fri Oct 12 17:52:36 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 17:52:36.810 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - note: noprealloc may hurt performance in many applications
+.root=WARN12-10-2018 17:52:36.814 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten] MongoDB starting : pid=18157 port=27017 dbpath=/tmp/embedmongo-db-02e1f5b4-91cc-4eca-9fce-49d09f30a79b 64-bit host=cgi-Latitude-E5440
+.root=WARN12-10-2018 17:52:36.814 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten] db version v3.2.2
+.root=WARN12-10-2018 17:52:36.814 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+.root=WARN12-10-2018 17:52:36.814 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+.root=WARN12-10-2018 17:52:36.815 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten] modules: none
+.root=WARN12-10-2018 17:52:36.815 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten] build environment:
+.root=WARN12-10-2018 17:52:36.815 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten]     distarch: x86_64
+.root=WARN12-10-2018 17:52:36.815 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+.root=WARN12-10-2018 17:52:36.815 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.814+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-02e1f5b4-91cc-4eca-9fce-49d09f30a79b", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+.root=WARN12-10-2018 17:52:36.818 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:36.818+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+.root=WARN12-10-2018 17:52:37.484 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+.root=WARN12-10-2018 17:52:37.485 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 17:52:37.485 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+.root=WARN12-10-2018 17:52:37.486 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+.root=WARN12-10-2018 17:52:37.486 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 17:52:37.486 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 31383 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+.root=WARN12-10-2018 17:52:37.486 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 17:52:37.486 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-02e1f5b4-91cc-4eca-9fce-49d09f30a79b/diagnostic.data'
+.root=WARN12-10-2018 17:52:37.486 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.484+0530 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+.root=WARN12-10-2018 17:52:37.725 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.725+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+.root=WARN12-10-2018 17:52:37.726 [main] INFO  d.f.embed.process.runtime.Executable.start - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@472698d
+.root=WARN12-10-2018 17:52:37.956 [main] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+.root=WARN12-10-2018 17:52:37.993 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:37.993+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56428 #1 (1 connection now open)
+.root=WARN12-10-2018 17:52:38.051 [cluster-ClusterId{value='5bc0920d1ff2a746ae0c2c8c', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+.root=WARN12-10-2018 17:52:38.057 [cluster-ClusterId{value='5bc0920d1ff2a746ae0c2c8c', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=4110582}
+.root=WARN12-10-2018 17:52:38.467 [main] INFO  c.s.m.repository.MovieRepositoryTest.logStarted - Started MovieRepositoryTest in 1.982 seconds (JVM running for 6.827)
+.root=WARN12-10-2018 17:52:38.477 [main] ERROR o.s.test.context.TestContextManager.prepareTestInstance - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33bc72d1] to prepare test instance [com.stackroute.moviecruiserapp.repository.MovieRepositoryTest@57bc27f5]
+.root=WARNjava.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'embeddedMongoServer' defined in class path resource [org/springframework/boot/autoconfigure/mongo/embedded/EmbeddedMongoAutoConfiguration.class]: Invocation of init method failed; nested exception is java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T17:52:35.548+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T17:52:35.548+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T17:52:35.548+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139) ~[spring-boot-test-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 25 common frames omitted
+Caused by: java.io.IOException: Could not start process: failed errno:98 Address already in use for socket: 127.0.0.1:27017
+2018-10-12T17:52:35.548+0530 E NETWORK  [initandlisten]   addr already in use
+2018-10-12T17:52:35.548+0530 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2018-10-12T17:52:35.548+0530 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.onAfterProcessStart(AbstractMongoProcess.java:79) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.process.runtime.AbstractProcess.<init>(AbstractProcess.java:116) ~[de.flapdoodle.embed.process-2.0.2.jar:na]
+	at de.flapdoodle.embed.mongo.AbstractMongoProcess.<init>(AbstractMongoProcess.java:53) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.mongo.MongodProcess.<init>(MongodProcess.java:50) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:44) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.mongo.MongodExecutable.start(MongodExecutable.java:34) ~[de.flapdoodle.embed.mongo-2.0.3.jar:na]
+	at de.flapdoodle.embed.process.runtime.Executable.start(Executable.java:108) ~[de.flapdoodle.embed.process-2.0.2.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1824) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1767) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 40 common frames omitted
+12-10-2018 17:52:38.637 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:38.636+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56430 #2 (2 connections now open)
+.root=WARN12-10-2018 17:52:38.645 [main] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+.root=WARN12-10-2018 17:52:38.956 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:38.956+0530 I WRITE    [conn2] update test_movie.movie query: { _id: "1" } update: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" } keysExamined:0 docsExamined:0 nMatched:1 nModified:1 upsert:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 299ms
+.root=WARN12-10-2018 17:52:38.957 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:38.956+0530 I COMMAND  [conn2] command test_movie.$cmd command: update { update: "movie", ordered: true, updates: [ { q: { _id: "1" }, u: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" }, upsert: true } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:100 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 300ms
+.root=WARN12-10-2018 17:52:39.044 [Thread-8] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d469831: startup date [Fri Oct 12 17:52:36 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 17:52:39.055 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.054+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56432 #3 (3 connections now open)
+.root=WARN12-10-2018 17:52:39.055 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.055+0530 I COMMAND  [conn3] terminating, shutdown command received
+.root=WARN12-10-2018 17:52:39.056 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.056+0530 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+.root=WARN12-10-2018 17:52:39.059 [Thread-8] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+.root=WARN12-10-2018 17:52:39.059 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.059+0530 I CONTROL  [conn3] now exiting
+.root=WARN12-10-2018 17:52:39.060 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.059+0530 I NETWORK  [conn3] shutdown: going to close listening sockets...
+.root=WARN12-10-2018 17:52:39.060 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.060+0530 I NETWORK  [conn3] closing listening socket: 5
+.root=WARN12-10-2018 17:52:39.060 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.060+0530 I NETWORK  [conn2] end connection 127.0.0.1:56430 (2 connections now open)
+.root=WARN12-10-2018 17:52:39.060 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.060+0530 I NETWORK  [conn3] closing listening socket: 6
+.root=WARN12-10-2018 17:52:39.061 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.060+0530 I NETWORK  [conn3] removing socket file: /tmp/mongodb-27017.sock
+.root=WARN12-10-2018 17:52:39.062 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.060+0530 I NETWORK  [conn3] shutdown: going to flush diaglog...
+.root=WARN12-10-2018 17:52:39.062 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.060+0530 I NETWORK  [conn3] shutdown: going to close sockets...
+.root=WARN12-10-2018 17:52:39.062 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.060+0530 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+.root=WARN12-10-2018 17:52:39.062 [Thread-6] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:52:39.061+0530 I NETWORK  [conn1] end connection 127.0.0.1:56428 (1 connection now open)
+.root=WARN12-10-2018 17:52:39.160 [Thread-5] INFO  d.f.e.process.runtime.ProcessControl.stopOrDestroyProcess - stopOrDestroyProcess: process hasn't exited 
+.root=WARN12-10-2018 17:52:39.323 [Thread-5] WARN  d.f.e.p.runtime.AbstractProcess.stop - Could not delete pid file: /tmp/extract-aa2cb05a-8a1e-4a9c-a361-a1b8ecdccf5dextractmongod.pid
+.root=WARN12-10-2018 17:53:15.136 [main] INFO  c.s.m.c.MovieCruiserAppControllerTest.logStarting - Starting MovieCruiserAppControllerTest on cgi-Latitude-E5440 with PID 18205 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 17:53:15.138 [main] DEBUG c.s.m.c.MovieCruiserAppControllerTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 17:53:15.145 [main] INFO  c.s.m.c.MovieCruiserAppControllerTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 17:53:17.515 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:17.516 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:17.535 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 18 ms
+.root=WARN12-10-2018 17:53:17.594 [main] INFO  c.s.m.c.MovieCruiserAppControllerTest.logStarted - Started MovieCruiserAppControllerTest in 3.395 seconds (JVM running for 5.35)
+.root=WARN12-10-2018 17:53:17.651 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:17.652 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:17.653 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 17:53:17.914 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:17.915 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:17.916 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 17:53:18.125 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:18.126 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:18.126 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 17:53:18.172 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:18.172 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:18.173 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 17:53:18.250 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:18.250 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:18.251 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 1 ms
+.root=WARN12-10-2018 17:53:18.281 [main] ERROR c.s.m.c.MovieCruiserAppController.deleteMovie - null
+.root=WARN12-10-2018 17:53:18.351 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:18.352 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:18.352 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 17:53:18.359 [main] ERROR c.s.m.c.MovieCruiserAppController.updateMovie - null
+.root=WARN12-10-2018 17:53:18.396 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:18.396 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:18.397 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 17:53:18.412 [main] ERROR c.s.m.c.MovieCruiserAppController.saveMovie - null
+.root=WARN12-10-2018 17:53:18.444 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:18.445 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:18.445 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 17:53:18.450 [main] ERROR c.s.m.c.MovieCruiserAppController.searcheMovie - null
+.root=WARN12-10-2018 17:53:18.476 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring FrameworkServlet ''
+.root=WARN12-10-2018 17:53:18.477 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization started
+.root=WARN12-10-2018 17:53:18.478 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - FrameworkServlet '': initialization completed in 0 ms
+.root=WARN12-10-2018 17:53:47.921 [main] INFO  c.s.m.repository.MovieRepositoryTest.logStarting - Starting MovieRepositoryTest on cgi-Latitude-E5440 with PID 18391 (started by cgi in /home/cgi/Downloads/MovieCruiserApp-master)
+.root=WARN12-10-2018 17:53:47.923 [main] DEBUG c.s.m.repository.MovieRepositoryTest.logStarting - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+.root=WARN12-10-2018 17:53:47.938 [main] INFO  c.s.m.repository.MovieRepositoryTest.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+.root=WARN12-10-2018 17:53:47.978 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e2822: startup date [Fri Oct 12 17:53:47 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 17:53:49.187 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - note: noprealloc may hurt performance in many applications
+.root=WARN12-10-2018 17:53:49.194 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.191+0530 I CONTROL  [initandlisten] MongoDB starting : pid=18449 port=27017 dbpath=/tmp/embedmongo-db-098d0189-9ca3-4d8a-8b27-199ad3a23f4e 64-bit host=cgi-Latitude-E5440
+.root=WARN12-10-2018 17:53:49.194 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.191+0530 I CONTROL  [initandlisten] db version v3.2.2
+.root=WARN12-10-2018 17:53:49.194 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.191+0530 I CONTROL  [initandlisten] git version: 6e71d0d568e134c029203593b00a0103e7cdf30b
+.root=WARN12-10-2018 17:53:49.195 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.191+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+.root=WARN12-10-2018 17:53:49.195 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.191+0530 I CONTROL  [initandlisten] modules: none
+.root=WARN12-10-2018 17:53:49.196 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.191+0530 I CONTROL  [initandlisten] build environment:
+.root=WARN12-10-2018 17:53:49.196 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.191+0530 I CONTROL  [initandlisten]     distarch: x86_64
+.root=WARN12-10-2018 17:53:49.196 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.191+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+.root=WARN12-10-2018 17:53:49.197 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.192+0530 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", http: { enabled: false }, port: 27017 }, security: { authorization: "disabled" }, storage: { dbPath: "/tmp/embedmongo-db-098d0189-9ca3-4d8a-8b27-199ad3a23f4e", journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+.root=WARN12-10-2018 17:53:49.201 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.200+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),,log=(enabled=false),
+.root=WARN12-10-2018 17:53:49.843 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.843+0530 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+.root=WARN12-10-2018 17:53:49.843 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.843+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 17:53:49.843 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.843+0530 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+.root=WARN12-10-2018 17:53:49.844 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.843+0530 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+.root=WARN12-10-2018 17:53:49.844 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.843+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 17:53:49.844 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.843+0530 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 31383 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+.root=WARN12-10-2018 17:53:49.845 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.843+0530 I CONTROL  [initandlisten] 
+.root=WARN12-10-2018 17:53:49.845 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.844+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/tmp/embedmongo-db-098d0189-9ca3-4d8a-8b27-199ad3a23f4e/diagnostic.data'
+.root=WARN12-10-2018 17:53:49.845 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:49.844+0530 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+.root=WARN12-10-2018 17:53:50.126 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:50.126+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+.root=WARN12-10-2018 17:53:50.127 [main] INFO  d.f.embed.process.runtime.Executable.start - start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@5c20aab9
+.root=WARN12-10-2018 17:53:50.425 [main] INFO  org.mongodb.driver.cluster.info - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+.root=WARN12-10-2018 17:53:50.484 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:50.484+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56474 #1 (1 connection now open)
+.root=WARN12-10-2018 17:53:50.570 [cluster-ClusterId{value='5bc092561ff2a747d78d1682', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+.root=WARN12-10-2018 17:53:50.576 [cluster-ClusterId{value='5bc092561ff2a747d78d1682', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 2]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1568877}
+.root=WARN12-10-2018 17:53:51.097 [main] INFO  c.s.m.repository.MovieRepositoryTest.logStarted - Started MovieRepositoryTest in 4.28 seconds (JVM running for 5.843)
+.root=WARN12-10-2018 17:53:51.215 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.215+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56476 #2 (2 connections now open)
+.root=WARN12-10-2018 17:53:51.218 [main] INFO  org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+.root=WARN12-10-2018 17:53:51.496 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.496+0530 I WRITE    [conn2] update test_movie.movie query: { _id: "1" } update: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" } keysExamined:0 docsExamined:0 nMatched:1 nModified:1 upsert:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 267ms
+.root=WARN12-10-2018 17:53:51.497 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.496+0530 I COMMAND  [conn2] command test_movie.$cmd command: update { update: "movie", ordered: true, updates: [ { q: { _id: "1" }, u: { _id: "1", movieTitle: "Odiyan", yearOfRelease: "2018", rating: 4.2, comment: "Super", posterUrl: "hhhh", _class: "com.stackroute.moviecruiserapp.domain.Movie" }, upsert: true } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:100 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } protocol:op_query 267ms
+.root=WARN12-10-2018 17:53:51.636 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.636+0530 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56478 #3 (3 connections now open)
+.root=WARN12-10-2018 17:53:51.638 [Thread-4] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3e2822: startup date [Fri Oct 12 17:53:47 IST 2018]; root of context hierarchy
+.root=WARN12-10-2018 17:53:51.656 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.640+0530 I COMMAND  [conn3] terminating, shutdown command received
+.root=WARN12-10-2018 17:53:51.657 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.640+0530 I FTDC     [conn3] Shutting down full-time diagnostic data capture
+.root=WARN12-10-2018 17:53:51.658 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.641+0530 I CONTROL  [conn3] now exiting
+.root=WARN12-10-2018 17:53:51.658 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.641+0530 I NETWORK  [conn3] shutdown: going to close listening sockets...
+.root=WARN12-10-2018 17:53:51.658 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.641+0530 I NETWORK  [conn3] closing listening socket: 5
+.root=WARN12-10-2018 17:53:51.658 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.641+0530 I NETWORK  [conn3] closing listening socket: 6
+.root=WARN12-10-2018 17:53:51.659 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.641+0530 I NETWORK  [conn3] removing socket file: /tmp/mongodb-27017.sock
+.root=WARN12-10-2018 17:53:51.659 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.641+0530 I NETWORK  [conn3] shutdown: going to flush diaglog...
+.root=WARN12-10-2018 17:53:51.659 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.641+0530 I NETWORK  [conn3] shutdown: going to close sockets...
+.root=WARN12-10-2018 17:53:51.659 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.641+0530 I STORAGE  [conn3] WiredTigerKVEngine shutting down
+.root=WARN12-10-2018 17:53:51.659 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.642+0530 I NETWORK  [conn1] end connection 127.0.0.1:56474 (2 connections now open)
+.root=WARN12-10-2018 17:53:51.660 [Thread-2] INFO  o.s.b.a.mongo.embedded.EmbeddedMongo.log - 2018-10-12T17:53:51.642+0530 I NETWORK  [conn2] end connection 127.0.0.1:56476 (1 connection now open)
+.root=WARN12-10-2018 17:53:51.676 [Thread-4] INFO  org.mongodb.driver.connection.info - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+.root=WARN12-10-2018 17:53:51.753 [Thread-1] INFO  d.f.e.process.runtime.ProcessControl.stopOrDestroyProcess - stopOrDestroyProcess: process hasn't exited 
+.root=WARN12-10-2018 17:53:51.920 [Thread-1] WARN  d.f.e.p.runtime.AbstractProcess.stop - Could not delete pid file: /tmp/extract-aa92b447-cbcf-486b-864d-1748eab8e28fextractmongod.pid
+.root=WARN

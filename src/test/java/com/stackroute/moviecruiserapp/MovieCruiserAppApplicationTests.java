@@ -1,4 +1,4 @@
-package com.stackroute.MovieCruiserApp;
+package com.stackroute.moviecruiserapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

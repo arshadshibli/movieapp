@@ -1,4 +1,4 @@
-package com.stackroute.MovieCruiserApp.exceptions;
+package com.stackroute.moviecruiserapp.exceptions;
 
 public class MovieAlreadyExistException extends Exception {
     private String message;

@@ -1,4 +1,4 @@
-package com.stackroute.MovieCruiserApp.configuration;
+package com.stackroute.moviecruiserapp.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +18,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
     @Bean
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .select()                 .apis(RequestHandlerSelectors.basePackage("com.stackroute.MovieCruiserApp"))
+                .select()                 .apis(RequestHandlerSelectors.basePackage("com.stackroute.moviecruiserapp"))
                 .paths(regex("/api/v1.*"))
                 .build();
 
